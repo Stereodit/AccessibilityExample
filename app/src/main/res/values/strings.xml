@@ -1,0 +1,78 @@
+<resources>
+    <string name="app_name">A11y Compose</string>
+
+    <string name="catalog_title">Каталог приёмов</string>
+    <string name="catalog_pane">Каталог приёмов доступности</string>
+    <string name="form_title">Форма записи</string>
+    <string name="form_pane">Форма записи на приём</string>
+    <string name="back_to_catalog">Назад к каталогу</string>
+
+    <string name="show_hint">Показать подсказку по проверке</string>
+    <string name="hide_hint">Скрыть подсказку по проверке</string>
+    <string name="hint_body">Включите TalkBack. Здесь проверьте заголовки, список и меню действий карточки. На форме — подписи полей, ошибки, переключатель, радиогруппу и порядок чтения цены.</string>
+    <string name="catalog_intro">Два экрана для TalkBack, клавиатуры и крупного шрифта. Контраст задан темой: динамические цвета выключены.</string>
+    <string name="section_techniques">Приёмы</string>
+    <string name="open_form">Открыть форму записи</string>
+
+    <string name="technique_headings_title">Заголовки</string>
+    <string name="technique_headings_body">Секции помечены как заголовки, и TalkBack переходит по ним отдельно от обычного текста.</string>
+    <string name="technique_descriptions_title">Описания</string>
+    <string name="technique_descriptions_body">Кнопка подсказки без текста подписана через contentDescription. Верхняя иллюстрация декоративная: у неё описание null.</string>
+    <string name="technique_grouping_title">Группировка</string>
+    <string name="technique_grouping_body">Заголовок, текст и статус карточки объединены в один фокус. Статус написан словом, а не только цветом иконки.</string>
+    <string name="technique_collection_title">Коллекция</string>
+    <string name="technique_collection_body">Список сообщает размер коллекции, карточка — свой номер. Видимый номер скрыт от TalkBack, чтобы не повторять объявление.</string>
+    <string name="technique_actions_title">Действия TalkBack</string>
+    <string name="technique_actions_body">Отметьте карточку нажатием или пунктом «Отметить как изученное» в меню действий скринридера.</string>
+
+    <string name="studied">Изучено</string>
+    <string name="not_studied">Не изучено</string>
+    <string name="mark_studied">Отметить как изученное</string>
+    <string name="unmark_studied">Снять отметку изучено</string>
+    <string name="item_position">%1$d из %2$d</string>
+
+    <string name="form_intro">Имя и почта обязательны. Если отправить пустое поле, фокус перейдёт на ошибку, а TalkBack её озвучит.</string>
+    <string name="progress_value">Заполнено %1$d из %2$d</string>
+    <string name="progress_name">Заполненность анкеты</string>
+
+    <string name="section_contacts">Контакты</string>
+    <string name="name_label">Имя</string>
+    <string name="email_label">Эл. почта</string>
+    <string name="name_error">Введите имя</string>
+    <string name="email_error">Введите адрес в формате name@example.com</string>
+    <string name="error_prefixed">Ошибка: %1$s</string>
+    <string name="submit_success">Готово: запись для %1$s отправлена</string>
+    <string name="form_cleared">Форма очищена</string>
+
+    <string name="section_reminder">Напоминание</string>
+    <string name="reminders_label">Напомнить о визите</string>
+    <string name="reminders_supporting">Сообщение придёт заранее</string>
+    <string name="reminders_off">Напоминание выключено</string>
+    <string name="slider_off">Выключено</string>
+    <string name="slider_name">За сколько напомнить</string>
+
+    <string name="section_contact_method">Способ связи</string>
+    <string name="method_call">Звонок</string>
+    <string name="method_email">Эл. почта</string>
+    <string name="method_push">Push-уведомление</string>
+
+    <string name="section_summary">Итог визита</string>
+    <string name="service_name">Терапевт</string>
+    <string name="service_duration">30 минут</string>
+    <string name="price">1 500 ₽</string>
+    <string name="traversal_hint">В строке сначала нарисована цена. TalkBack читает услугу, затем цену: порядок задан traversalIndex.</string>
+
+    <string name="consent">Согласен на обработку данных для записи</string>
+    <string name="consent_hint">Кнопка отправки включится после согласия. Пока она выключена, причина написана текстом, а не только серым цветом.</string>
+    <string name="consent_required">Ошибка: подтвердите согласие на обработку данных</string>
+    <string name="submit">Отправить запись</string>
+    <string name="clear_form">Очистить форму</string>
+
+    <plurals name="hours_value">
+        <item quantity="one">%d час</item>
+        <item quantity="few">%d часа</item>
+        <item quantity="many">%d часов</item>
+        <item quantity="other">%d часа</item>
+    </plurals>
+    <string name="remind_hours">Напомнить за %1$s</string>
+</resources>
